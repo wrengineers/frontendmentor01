@@ -17,7 +17,7 @@ The designs were created to the following widths:
 
 - Grey 700: hsl(0, 0%, 20%)
 - Grey 800: hsl(0, 0%, 12%)
-- Grey 900: hsl(0, 0%, 8%)
+- Grey 900: hsl(0, 0%, 8%)*
 
 ## Typography
 
