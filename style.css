@@ -1,10 +1,11 @@
 body{
-  --green: hsl(75, 94%, 57%);
+  --color-green: hsl(75, 94%, 57%);
   background-color: hsl(0, 0%, 8%);
   display: flex;
   flex-direction: column;
   justify-content: center;
-  min-height: 100vh;
+  align-items: center;
+  min-height: 95vh;
   font-family: 'Inter', sans-serif;
   text-align: center;
 }
@@ -12,7 +13,7 @@ body{
 .container{
   background-color: hsl(0, 0%, 12%);
   max-width: 400px;
-  padding: 24px;
+  padding: 24px 24px 12px 24px;
   border-radius: 10px;
   margin-inline: auto;
   font-size: 14px;
@@ -36,7 +37,7 @@ body{
   font-weight: 600;
   font-size: 14px;
   margin-top: -0.75rem;
-  color: var(--green);
+  color: var(--color-green);
 }
 
 .container p{
@@ -69,8 +70,15 @@ body{
   font-weight: 400;
 }
 
+.socials button:hover{
+  background-color: var(--color-green);
+  color: black;
+}
+
 .attribution {
-  font-size: 11px; text-align: center;
+  padding-top: 1.5rem;
+  font-size: 11px;
+  text-align: center;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
