@@ -16,7 +16,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.j![img.png](img.png))
+![Screenshot 2025-10-27 150126.png](assets/images/Screenshot%202025-10-27%20150126.png)
 
 ### Links
 
